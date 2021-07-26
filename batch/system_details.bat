@@ -15,7 +15,7 @@ echo // CPU
 wmic cpu get name, architecture, numberofcores, maxclockspeed, addresswidth, manufacturer, status
 echo.
 
-echo // Hard Drives (space)
+echo // Hard Drives
 wmic diskdrive get deviceid, size, partitions, manufacturer, model, serialnumber, status
 echo. 
 
